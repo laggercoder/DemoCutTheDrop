@@ -8,6 +8,7 @@ public class Manager : MonoBehaviour
     public bool isWin = false;
     public bool isLose = false;
     public int countStart = 0;
+    public bool passMap = false;
     protected virtual void Awake()
     {
         if (!Instance)
